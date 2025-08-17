@@ -26,25 +26,28 @@ For all five tasks, you can start with a selected template repo available on Git
 
 The available template repos:
 
-- react-app
-- react-ts-app
-- vue-app
-- vue-ts-app
-- node-app
-- node-ts-app
-- laravel-app
-- vanilla-js-app
+- react
+- vuejs
+- vanillajs
+- nextjs
+- laravel
 
-The Gitea service is available at the following address: [https://gitea.sudsy.com](https://gitea.sudsy.com)
+The Gitea service is available at the following address: [https://git.ssa.skillsit.hu](https://git.ssa.skillsit.hu)
 
 To log in, you must use the username and password (a 4-digit PIN code) you have been given.
 After logging in, create a new repo for the next task.
 
-- In the Owner field, select `competitors` team! **Make sure you set this option carefully because if you set your own user as the owner, the automatic deployment will not work!**
-- Give the name of the new repo using the following pattern: `module-X-Y`, where `X` is the module number, and `Y` is your workstation number. **Make sure you set the repo's name carefully because if you make a mistake, the automatic deployment will not work!** _(Example: module-a-1)_
-- Under the template field, select the appropriate template (e.g. `react-ts-app`). Select `Git Content (Default Branch)` for `Template Items`.
+- Give the name of the new repo using the following pattern: `module-X`, where `X` is the module number. **Make sure you set the repo's name carefully because if you make a mistake, the automatic deployment will not work!** _(Example: module-a)_
+- Under the template field, select the appropriate template (e.g. `react`). Select `Git Content (Default Branch)` for `Template Items`.
 
-Once the new repo is created, clone it to your own workstation inside the `d:\ws2026-s17-hu-r3` folder.
+Once the new repo is created, clone it to your own workstation inside the `d:\es2025-training` folder.
+
+Set Up Action Secrets:
+
+- Go to Settings → Actions → Secrets in your new repository and add:
+
+- USER: Your username (e.g., `comp01`)
+- PASS: Your password (e.g., `test123`)
 
 ### Using npm modules
 
@@ -52,21 +55,42 @@ The npm modules will be accessible via a local npm cache. This means that even t
 
 The available npm modules:
 
-- express
-- mysql
-- mysql2
+VueJS 3.5.13
+
 - vue-router
-- react-router, react-router-dom
-- axios
-- sass
-- prisma, @prisma/client
-- express-validator
-- zod
+- vue-axios
+- pinia
+- sass-loader
+- node-sass
+- eslint
+- prettier
+- vite
 - tailwindcss
-- postcss
-- autoprefixer
-- typescript
-- _and all the types (@types/) needed for the TS projects_
+- bootstrap
+
+ReactJS 19.1.0
+
+- react-router-dom
+- axios
+- reduxjs/toolkit
+- react-icons
+- react-dom
+- react-redux
+- tailwindcss/vite
+- tanstack/react-query
+- tanstack/react-query-devtools
+- react-hook-form
+- framer-motion
+- zod
+- react-helmet
+- date-fns
+- jest
+- tailwind-merge
+- react-toast
+- laravel-echo
+- pusher-js
+- react-table
+- socket.io-client
 
 ### Laravel projects, composer install
 
@@ -74,8 +98,8 @@ The Laravel project contains all the necessary files, so you will not need to `c
 
 ### Deployment
 
-When you commit and push your work, the deployment will start automatically. You can follow the process in the Gitea interface under the Action tab. Once the deployment is complete, your project will be available at `https://module-X-YYYY.sudsy.com`, where `X` is the module number and `YYYY` is your 4-digit PIN.
+When you commit and push your work, the deployment will start automatically. You can follow the process in the Gitea interface under the Action tab. Once the deployment is complete, your project will be available at `https://XXX-module_Y.ssa.skillsit.hu`, where `Y` is the module number and `XXX` is your username.
 
 ### Database access
 
-You will have your own database on the MySQL database server (`db.sudsy.com`) available on the local network. You will need to use this database for development, and the same database will provide the data for your projects deployed to the server. A database dump will be provided to get the initial data. During the marking, the database will be restored to its original state using the same dump. Your backend solution also uses this database.
+You will have your own database on the MySQL database server (`db.ssa.skillsit.hu`) available on the network. You will need to use this database for development, and the same database will provide the data for your projects deployed to the server.
