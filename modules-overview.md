@@ -98,7 +98,7 @@ The Laravel project contains all the necessary files, so you will not need to `c
 
 ### Deployment
 
-When you commit and push your work, the deployment will start automatically. You can follow the process in the Gitea interface under the Action tab. Once the deployment is complete, your project will be available at `https://XXX-module_Y.ssa.skillsit.hu`, where `Y` is the module number and `XXX` is your username.
+When you commit and push your work, the deployment will start automatically. You can follow the process in the Gitea interface under the Action tab. Once the deployment is complete, your project will be available at `https://XXX-module-Y.ssa.skillsit.hu`, where `Y` is the module number and `XXX` is your username.
 
 ### Database access
 
