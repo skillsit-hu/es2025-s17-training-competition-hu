@@ -12,7 +12,7 @@ This project focuses on creating a dynamic, server-side rendered administrative 
 
 Competitors will create a server-side rendered administrative website for SkillShare Academy. The system manages platform operations including user accounts, course catalog, mentor coordination, and credit system oversight.
 
-Administrative pages are require authentication with appropriate privileges. The interface must implement OWASP security guidelines to protect sensitive user data and platform operations.
+Administrative pages require authentication with appropriate privileges. The interface must implement OWASP security guidelines to protect sensitive user data and platform operations.
 
 Competitors must design a database schema and implement the interface based on provided requirements. Sample data will be provided for import into the normalized database structure.
 
@@ -20,7 +20,7 @@ Module B must use a server-side framework for rendering. Additional frontend lib
 
 ## Requirements
 
-Create a server-side rendered administrative interface where administrators manage platform operations, user accounts, course content, and mentor application approvement.
+Create a server-side rendered administrative interface where administrators manage platform operations, user accounts, course content, and mentor application approval.
 
 Design a database schema and import provided data with sample users, courses, and administrative records. The interface must implement OWASP security guidelines with emphasis on access control and data protection.
 
@@ -30,7 +30,7 @@ Module B will be assessed using Google Chrome. Security aspects, administrative 
 
 Design aesthetics are secondary to functionality and usability for administrative users. Basic styling following the SkillShare Academy design system (purple-orange-cyan color scheme) is expected.
 
-### Sample Data Import & Authentocation
+### Sample Data Import & Authentication
 
 Import the provided JSON data (`assets/data/data.json`).
 
@@ -41,15 +41,11 @@ Set the following passwords for these users:
 - Zeus Helmet (admin@ssa.org) - Password: `skills2025admin1`
 - Alice Johnson (alice@example.com) - Password: `WtfiA?`
 
-You can create random password for the other imported users.
+You can create random passwords for the other imported users.
 
 Passwords must be securely hashed in the database.
 
-#### Authentication
-
-Set the passw
-
-- Username: `admin1` | Password: `skills2025admin1`
+**Provide a SQL dump of your database** in the `db/db-dump.sql` file in your solution repository.
 
 ### Website Requirements
 
@@ -75,7 +71,7 @@ The administrative interface must include these core elements:
 
 - Dedicated login page with username/password form
 - Redirect after successful authentication
-- Only users with admin role can login
+- Only users with admin role can log in
 - Error messaging for invalid credentials
 
 **Page Layout:**
@@ -90,7 +86,7 @@ The administrative interface must include these core elements:
 
 Display platform overview including:
 
-- Statistics: show counts of total registered learners, total courses, active mentors and total credits earned. Also show the changes in registered learners, mentors, and total credits earned over the past 7 days.
+- Statistics: display counts of total registered learners, total courses, active mentors, and total credits earned. Also show the changes in registered learners, mentors, and total credits earned over the past 7 days.
 - Quick access navigation to learner management, course management, and mentor management pages
 - Last 6 activities: display a simple table with the following columns:
   - Activity (Learner registration, Mentor registration, Chapter completed)
@@ -111,20 +107,20 @@ Example Recent Activities Table:
 #### Learner Management
 
 - View all learners with search/filtering capabilities:
-  - Search by name, email using a single search input field
+  - Search by name or email using a single search input field
   - Filter by account status: All, Active, Suspended (dropdown or radio buttons, default: "All")
   - Clear all filters button to reset search and filter criteria
 - Pagination: Display 10 learners per page with navigation controls (Previous/Next, page numbers)
-- Account details: name, e-mail, chapters completed, credit earned
-- Account status management: button for suspend and enable users
+- Account details: name, email, chapters completed, credits earned
+- Account status management: buttons to suspend and enable users
 
 #### Course Management
 
-- Display all courses with the following details: title, description, difficulty, number of total chapters, total credits.
+- Display all courses with the following details: title, description, difficulty, number of total chapters, and total credits.
 - Additional administrator functions:
   - Create a new course
-  - Edit a course. On the form display an additional button for editing the associated chapters. This button should be inactive because this functionality will be implemented later.
-  - Delete a courses. Before deleting a course, ask for user confirmation. Do not use the default browser popup window for this confirmation. When a course is deleted, all associated chapters should also be deleted, but the chapter completion records should be preserved.
+  - Edit a course. On the form, display an additional button for editing the associated chapters. This button should be inactive because this functionality will be implemented later.
+  - Delete a course. Before deleting a course, ask for user confirmation. Do not use the default browser popup window for this confirmation. When a course is deleted, all associated chapters should also be deleted, but the chapter completion records should be preserved.
 
 #### Mentor Management
 
