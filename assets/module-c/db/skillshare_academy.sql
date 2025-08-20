@@ -216,29 +216,6 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `credit_balance`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `_prisma_migrations`
---
-
-CREATE TABLE `_prisma_migrations` (
-  `id` varchar(36) NOT NULL,
-  `checksum` varchar(64) NOT NULL,
-  `finished_at` datetime(3) DEFAULT NULL,
-  `migration_name` varchar(255) NOT NULL,
-  `logs` text DEFAULT NULL,
-  `rolled_back_at` datetime(3) DEFAULT NULL,
-  `started_at` datetime(3) NOT NULL DEFAULT current_timestamp(3),
-  `applied_steps_count` int(10) UNSIGNED NOT NULL DEFAULT 0
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `_prisma_migrations`
---
-
-INSERT INTO `_prisma_migrations` (`id`, `checksum`, `finished_at`, `migration_name`, `logs`, `rolled_back_at`, `started_at`, `applied_steps_count`) VALUES
-('481a414d-470f-4b78-b3b7-a8742f228a0f', '2745f591a14d2eb6477aeed92e7914c22df089dc8388a8d7d538a17f47d244f0', '2025-08-18 20:00:48.839', '20250816160842_init', NULL, NULL, '2025-08-18 20:00:48.703', 1),
-('e754a5d8-b274-4e81-86dc-3c519f0ec08f', 'f3a684050e14b580464806ad4137ac4c084bea1daedaa399f91cc7f77188e07a', '2025-08-18 20:00:48.862', '20250816184119_init', NULL, NULL, '2025-08-18 20:00:48.840', 1);
-
---
 -- Indexes for dumped tables
 --
 
