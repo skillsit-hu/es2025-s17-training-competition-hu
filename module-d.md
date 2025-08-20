@@ -18,6 +18,8 @@ Competitors will be given a working solution of Module C at the start of Module 
 
 **API Documentation:** OpenAPI documentation is available in the `assets` for this backend and serves as the reference for all API endpoints.
 
+**Database:** Competitors do not have direct access to the database that the provided backend uses. However, a database dump is available in the `assets/db` directory for competitors to examine the data structure and content. All user passwords are set to **`password123`**.
+
 The users of the frontend will be able to discover available courses, enroll in learning paths, complete chapters to earn credits, and book mentorship sessions. The frontend must handle the complexity of the credit system, real-time booking confirmations, and data visualization while presenting an intuitive interface to users.
 
 Initially the application requires user authentication. Users must log in to access the learning platform features. The X-API token must be sent to the server with every request and stored in the browser for persistence across page reloads and navigation.
