@@ -106,7 +106,15 @@ erDiagram
 
 PHPMyAdmin is also available at `pma.ssa.skillsit.hu`.
 
-**Provide a database SQL dump of the schema and data** that you are using in the `db/db-dump.sql` in your solution repo.
+**Provide a database SQL dump of the schema and data** that you are using in the `db/db-dump.sql` file in your solution repository.
+
+### External Content Service
+
+The external content service is accessible to your REST API server in a private network without authentication, but it is not accessible to the public at all.
+
+**Content Service URL:** `https://content.ssa.skillsit.hu`
+
+You can find the OpenAPI documentation for this service here: `assets/api/content-service-api.yaml`
 
 ### Error Handling
 
