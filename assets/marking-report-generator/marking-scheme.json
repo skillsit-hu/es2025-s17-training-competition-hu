@@ -1,0 +1,331 @@
+{
+  "totalMark": 17,
+  "wsosSections": {
+    "1": "Work organization and self-management",
+    "2": "Communication and interpersonal skills", 
+    "3": "Design Implementation",
+    "4": "Front-End Development"
+  },
+  "subCriterions": [
+    {
+      "name": "Project Structure and File Organization",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "All 4 required pages are implemented (Home, Courses, Mentors, About)",
+          "maxMark": 0.25,
+          "wsosSection": 1,
+          "extraDescription": "All four main pages are present and accessible with basic content structure",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Logical folder structure with separated assets",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "extraDescription": "CSS files, images, and icons are organized in appropriate folders (css/, assets/, images/, etc.)",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Consistent header with SkillShare Academy logo across all pages",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "extraDescription": "Header contains the SkillShare Academy logo and is consistent across all four pages",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Navigation menu linking all pages correctly",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "extraDescription": "Navigation menu is present and all links work correctly between pages",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Consistent footer across all pages",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "extraDescription": "Footer is present on all pages with consistent styling and content",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "HTML file naming conventions and structure",
+          "maxMark": 0.25,
+          "wsosSection": 1,
+          "extraDescription": "Files are properly named (index.html, courses.html, mentors.html, about.html) and follow consistent structure",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Code organization and maintainability",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "judgementScoreDescription": [
+            "HTML files are unorganized with poor indentation and no meaningful structure",
+            "HTML files have basic indentation but lack semantic structure",
+            "HTML files are well-organized with good indentation and some semantic elements",
+            "HTML files are excellently organized with proper indentation, semantic elements, and clear structure for easy maintenance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Content Communication and Theme Implementation",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "SkillShare Academy free learning concept clearly communicated",
+          "maxMark": 0.5,
+          "wsosSection": 2,
+          "extraDescription": "Website clearly explains the free course marketplace and community-based learning approach",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Credit-based mentorship system explained",
+          "maxMark": 0.5,
+          "wsosSection": 2,
+          "extraDescription": "Content explains how learners earn credits through course completion and use them for mentorship",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Proper semantic HTML structure with heading hierarchy",
+          "maxMark": 0.75,
+          "wsosSection": 2,
+          "extraDescription": "Uses proper h1-h6 hierarchy, semantic tags (header, main, section, article, nav, footer)",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Accessibility features implemented (alt texts, aria labels)",
+          "maxMark": 0.25,
+          "wsosSection": 2,
+          "extraDescription": "Images have meaningful alt text and interactive elements have appropriate ARIA labels",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Visual Design and Layout Implementation",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Home page hero section with two-column layout",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Hero section has text content on left, image on right, with call-to-action buttons below text",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Course cards with credit earning badges and diamond icons",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "Course cards display credit earning information with diamond icons and proper badge styling",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Mentor profiles with credit rates display",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "Mentor cards show credit rates (8-15 credits/hour) with appropriate styling and expertise information",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Purple-orange-cyan color scheme implementation",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Uses specified vibrant purple (#7c3aed), orange (#f97316), cyan (#06b6d4) color palette consistently",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Typography consistency and hierarchy",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Consistent font family, proper text hierarchy, and good readability across all pages",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Card grid layouts with consistent spacing",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Course and mentor cards are arranged in proper grid layouts with consistent spacing and alignment",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Images and icons properly implemented",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Images are optimized, properly sized, and icons (SVG) are correctly placed and styled",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Visual consistency across all pages",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "All pages follow the same visual design system and branding consistency",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Overall visual design quality and creativity",
+          "maxMark": 0.75,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "Design lacks creativity and visual appeal, poor use of color scheme and layout",
+            "Design has basic visual appeal but limited creativity in layout and color usage",
+            "Design is visually appealing with good use of color scheme and creative layout elements",
+            "Excellent creative design with outstanding visual appeal, masterful use of color scheme, and innovative layout that effectively communicates the SkillShare Academy brand"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Credit system visual integration",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "Credit system elements are not visually integrated or are confusing",
+            "Credit system elements are present but not well-integrated into the overall design",
+            "Credit system elements are well-integrated with consistent styling",
+            "Credit system elements are excellently integrated with creative visual treatment that enhances understanding and usability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Implementation and Validation",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "W3C HTML validation compliance",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "All HTML files pass W3C validation with no errors",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "W3C CSS validation compliance",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "CSS file passes W3C validation with no errors",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Modern CSS techniques implementation (Flexbox, CSS Variables)",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Uses modern CSS3 features like Flexbox for layouts, CSS custom properties for colors, and modern selectors",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Mobile responsiveness (360×640 viewport)",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Website works perfectly on mobile devices with proper layout adaptation and no horizontal scrolling",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Tablet responsiveness (768×1024 viewport)",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Website adapts properly to tablet viewports with appropriate layout changes",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Desktop responsiveness (1920×1080 viewport)",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Website displays correctly on desktop with proper layout and spacing",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "CSS code quality and organization",
+          "maxMark": 0.75,
+          "wsosSection": 4,
+          "judgementScoreDescription": [
+            "CSS code is unorganized with poor structure and no meaningful class names",
+            "CSS code has basic organization but lacks consistent naming conventions",
+            "CSS code is well-organized with good structure and meaningful class names",
+            "CSS code is excellently organized with modular structure, meaningful class names, efficient use of modern CSS features, and easy maintainability"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Responsive design implementation quality",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "judgementScoreDescription": [
+            "Poor responsive implementation with broken layouts on different devices",
+            "Basic responsive implementation with some layout issues on certain devices",
+            "Good responsive implementation that works well across different devices",
+            "Excellent responsive implementation with smooth transitions, optimal layouts for all devices, and thoughtful adaptation of content and interactions"
+          ]
+        }
+      ]
+    }
+  ]
+}
