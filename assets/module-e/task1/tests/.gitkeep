@@ -1,0 +1,7 @@
+# This file ensures the tests directory is included in the repository
+# Competitors should create their test files in this directory following the naming convention:
+# - creditSystem.test.js
+# - courseProgress.test.js
+# - mentorMatching.test.js
+# - userProfile.test.js
+# - ratingSystem.test.js 
