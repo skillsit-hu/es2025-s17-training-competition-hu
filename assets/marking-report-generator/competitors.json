@@ -1,0 +1,27 @@
+[
+    {
+        "id": 11,
+        "name": "Andrei Amancia",
+        "country": "RO"
+    },
+    {
+        "id": 12,
+        "name": "Olivér Mrakovics",
+        "country": "HU"
+    },
+    {
+        "id": 13,
+        "name": "Urban Krepel",
+        "country": "SI"
+    },
+    {
+        "id": 14,
+        "name": "Ivan Polák",
+        "country": "SK"
+    },
+    {
+        "id": 7,
+        "name": "Marcell Györfi",
+        "country": "HU"
+    }
+]
